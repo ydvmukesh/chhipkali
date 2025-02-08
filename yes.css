@@ -123,14 +123,28 @@ li>span {
   }
 
   .controls {
-    position: absolute;
-    top: 80%;
+    position: unset;
+    /* top: 80%; */
     left: 33%;
     right: 32%;
-    transform: translateY(209%);
+    transform: translateY(59%);
     display: flex;
     /* flex-direction: column; */
     gap: 0.125rem;
     margin: auto;
+    max-width: 30%;
+    display: flex;
+    margin-top: 130px;
+  }
+
+  .controls button {
+    /* width: 1.5rem; */
+    /* aspect-ratio: 1; */
+    font-size: 1.5rem;
+    color: rgb(106, 245, 25);
+    border: none;
+    background: rgb(0, 0, 0);
+    display: flex;
+    place-items: center;
   }
 }
