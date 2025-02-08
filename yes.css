@@ -139,7 +139,7 @@ li>span {
 
   .controls button {
     /* width: 1.5rem; */
-    /* aspect-ratio: 1; */
+    aspect-ratio: unset;
     font-size: 1.5rem;
     color: rgb(106, 245, 25);
     border: none;
